@@ -1,8 +1,5 @@
-module github.com/chabad360/gomcu
+module github.com/sebastianrau/gomcu
 
-go 1.15
+go 1.23.5
 
-require (
-	gitlab.com/gomidi/midi v1.20.2
-	gitlab.com/gomidi/rtmididrv v0.10.1
-)
+require gitlab.com/gomidi/midi/v2 v2.2.19
